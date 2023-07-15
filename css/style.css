@@ -7,13 +7,24 @@ header > nav {
 .menu ul {
     margin: 0;
     list-style-type: none;
+    overflow: hidden;
 }
 
 .menu ul li {
-    display: inline-block;
-    padding: 1rem 1rem;
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.95rem 1rem;
+}
+.menu ul li:hover{
+    background-color: #bafce6;
 }
 
-.menu ul li:hover{
-    background-color: #46aa89;
+.menu ul li a.active {
+    padding-bottom: 0.45rem;
+    border-bottom: 0.5rem solid #74e0bc;
 }
