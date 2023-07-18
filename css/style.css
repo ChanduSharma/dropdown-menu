@@ -31,7 +31,7 @@
     padding: 0.5rem 2rem;
     border-bottom: 1px solid var(--border-grey);
   }
-  
+  .menu__main__item--active,
   .menu__main__item:hover {
     background: white;
     border-bottom: none;
@@ -62,6 +62,7 @@
   .menu__sub {
     height: 18rem;
     background: white;
+    display: none;
   }
   
   .menu__sub__categories {
